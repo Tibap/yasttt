@@ -19,11 +19,7 @@ cd /opt/splunk/etc/apps/  # adapt if /opt is not where you are installing splunk
 git clone https://github.com/Tibap/yasttt.git
 ```
 
-- Via ZIP file:
-
-Download the repo as a ZIP file from Github and import the ZIP file in Splunk > Manage Apps > Install app from file.
-
-Restart Splunk.
+- Via ZIP file: Download the repo as a ZIP file from Github and import the ZIP file in Splunk > Manage Apps > Install app from file.
 
 ## Configuration
 
