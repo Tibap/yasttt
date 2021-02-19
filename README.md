@@ -11,12 +11,19 @@ This project was largely inspired by (these projects were however not working wi
 
 ## Installation
 
+- Via git:
 ```
 # Go to your Splunk app folder
 cd /opt/splunk/etc/apps/  # adapt if /opt is not where you are installing splunk
 # Git clone the repo:
-git clone  TODO
+git clone https://github.com/Tibap/yasttt.git
 ```
+
+- Via ZIP file:
+
+Download the repo as a ZIP file from Github and import the ZIP file in Splunk > Manage Apps > Install app from file.
+
+Restart Splunk.
 
 ## Configuration
 
