@@ -1,0 +1,19 @@
+<setup>
+  <block title="Custom Alerts">
+        <text>Configure TheHive Server Settings</text>
+    </block>
+    <block title="Server" endpoint="admin/alert_actions" entity="yasttt">
+        <input field="param.url">
+            <label>Server URL (ex. https://server.com:9443)</label>
+            <type>text</type>
+        </input>
+        <input field="param.api_key">
+            <label>TheHive API Key</label>
+            <type>text</type>
+        </input>
+		<input field="param.log_level">
+            <label>Level for logs: DEBUG, INFO, ERROR (default is INFO)</label>
+            <type>text</type>
+        </input>
+    </block>
+</setup>
